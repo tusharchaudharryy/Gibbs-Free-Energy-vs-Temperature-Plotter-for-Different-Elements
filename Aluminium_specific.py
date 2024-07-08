@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Temperature ranges for solid phase calculations
 T1 = np.linspace(298.15, 700, 1000)
 T2 = np.linspace(700, 933.47, 1000) 
-T3 = np.linspace(933.47, 1000, 1000)
+T3 = np.linspace(933.47, 1000, 1000) 
 
 # Gibbs free energy calculations for solid phase
 G1 = -7976.15 + 137.093038 * T1 - 24.3671976 * T1 * np.log(T1) - 1.884662E-3 * T1 ** 2 - 0.8776648E-6 * T1 ** 3 + 74092 / T1
