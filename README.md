@@ -1,0 +1,1 @@
+# Gibbs-Free-Energy-vs-Temperature-Plotter-for-Different-Elements
