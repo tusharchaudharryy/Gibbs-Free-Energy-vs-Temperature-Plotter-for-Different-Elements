@@ -5,7 +5,7 @@ class GibbsFreeEnergy:
     def __init__(self, name, temperature_ranges, equations):
         self.name = name
         self.temperature_ranges = temperature_ranges
-        self.equations = equations
+        self.equations = equations 
 
     def calculate_gibbs_free_energy(self):
         self.gibbs_free_energies = []
